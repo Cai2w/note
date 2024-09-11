@@ -2,12 +2,12 @@ const navConf = require('./config/nav')
 const { readFileList, readTotalFileWords, readEachFileWords } = require('./webSiteInfo/readFile');
 
 // 定义常量
-const author = "程序员沉梦听雨";
-const domain = "https://cmty256.github.io/";
+const author = "程序员王菜菜";
+const domain = "https://note.cai2.wang/";
 const tags = ["程序员", "编程", "计算机"];
 
 module.exports = {
-    title: '沉梦听雨的编程指南',
+    title: '王菜菜的编程指南',
     // base: '/cmty256/',
     description: '满招损，谦受益',
     locales: {
@@ -23,7 +23,7 @@ module.exports = {
     },
     base: '/',
     head: [
-        ['link', { rel: 'icon', href: 'https://cmty256.github.io/imgs-blog/logo/白云.38zbldnhh180.jpg' }], // 网页选项卡的logo
+        ['link', { rel: 'icon', href: 'https://cdn.jsdmirror.com/gh/Cai2w/cdn/img/%E9%9D%92%E8%8F%9C.png' }], // 网页选项卡的logo
         [
             'meta',
             {
@@ -34,11 +34,9 @@ module.exports = {
             'meta',
             {
               name: 'description',
-              content: '沉梦听雨的编程指南'
+              content: '王菜菜的编程指南'
             }
        ],
-        // 阿里在线矢量库
-        ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
         // 解决 Chrome 网站统计不准确问题
         ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
         // 移动浏览器主题颜色
@@ -61,14 +59,14 @@ module.exports = {
     ],
     themeConfig: {
         updateBar:{showToArticle: false},
-        logo: 'https://cmty256.github.io/imgs-blog/logo/白云.38zbldnhh180.jpg',
-        sidebar: 'structuring',
+        logo: 'https://cdn.jsdmirror.com/gh/Cai2w/cdn/img/%E9%9D%92%E8%8F%9C.png',
+        // sidebar: 'structuring',
         sidebarDepth: 2,
         lastUpdated: '上次更新',
-        // 导航栏仓库链接设置
-        repo: 'https://gitee.com/dream-deeply-tyu/cmty256',
-        // 自定义导航栏仓库链接名称
-        repoLabel: "Gitee",
+        // // 导航栏仓库链接设置
+        // repo: 'https://gitee.com/dream-deeply-tyu/cmty256',
+        // // 自定义导航栏仓库链接名称
+        // repoLabel: "Gitee",
         nav: navConf,
         sidebar: {
             mode: 'structuring',
@@ -81,8 +79,8 @@ module.exports = {
 
         // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
-          name: '沉梦听雨', // 必需
-          link: 'https://gitee.com/dream-deeply-tyu', // 可选的
+          name: '王菜菜', // 必需
+          link: 'https://ca2.wang', // 可选的
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -92,39 +90,39 @@ module.exports = {
                 {
                     iconClass: 'icon-youjian',
                     title: '发邮件',
-                    link: 'mailto:2691357857@qq.com',
+                    link: 'mailto:1732804469@qq.com',
                 },
                 {
-                    iconClass: 'icon-gitee',
-                    title: 'Gitee',
-                    link: 'https://gitee.com/dream-deeply-tyu',
+                    iconClass: 'icon-github',
+                    title: 'GitHub',
+                    link: 'https://github.com/Cai2w',
                 },
                 {
-                    iconClass: 'icon-csdn',
-                    title: 'CSDN',
-                    link: 'https://blog.csdn.net/qq_54088234?spm=1011.2124.3001.5343',
+                    iconClass: 'icon-juejin',
+                    title: '掘金',
+                    link: 'https://juejin.cn/user/765678299915271',
                 },
             ],
         },
 
         // 页脚信息
         footer: {
-            createYear: 2023, // 博客创建年份
+            createYear: 2024, // 博客创建年份
             copyrightInfo:
-                '沉梦听雨 | <a href="https://gitee.com/dream-deeply-tyu" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+                '<a href="https://cai2.wang" target="_blank">王菜菜</a> | <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021022101号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
         extendFrontmatter: {
             author: {
-                name: '沉梦听雨',
-                link: 'https://gitee.com/dream-deeply-tyu'
+                name: '王菜菜',
+                link: 'https://ca2.wang'
             }
         },
 
         // 站点配置（首页 & 文章页）
         blogInfo: {
-            blogCreate: '2023-5-10', // 博客创建时间
+            blogCreate: '2024-9-12', // 博客创建时间
             indexView: false,  // 开启首页的访问量和排名统计，默认 true（开启）
             pageView: false,  // 开启文章页的浏览量统计，默认 true（开启）
             readingTime: true,  // 开启文章页的预计阅读时间，条件：开启 eachFileWords，默认 true（开启）。可在 eachFileWords 的 readEachFileWords 的第二个和第三个参数自定义，默认 1 分钟 300 中文、160 英文
@@ -147,10 +145,20 @@ module.exports = {
             copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
             copyMessage: '复制成功', // default is 'Copied successfully!'
             toolTipMessage: '点击复制', // default is ''Copy to clipboard'
-            duration: 300, // prompt message display time
+            duration: 1000, // prompt message display time
             }
         ],
         ["cursor-effects"], // 星星点击特效
+        [
+            'dynamic-title', // 文章标题动态效果
+            {
+            // showIcon: 'https://www.typescriptlang.org/favicon-32x32.png?v=8944a05a8b601855de116c8a56d3b3ae',
+            // showText: '客官欢迎回来~',
+            // hideIcon: 'https://www.typescriptlang.org/favicon-32x32.png?v=8944a05a8b601855de116c8a56d3b3ae',
+            hideText: '客官不要走嘛~',
+            recoverTime: 2000,
+            }
+        ],
         [
             'vuepress-plugin-reading-time',
             {
