@@ -8,7 +8,7 @@ const tags = ["程序员", "编程", "计算机"];
 
 module.exports = {
     title: '王菜菜的编程指南',
-    // base: '/cmty256/',
+    // base: '/',
     description: '满招损，谦受益',
     locales: {
         '/': {
@@ -64,9 +64,9 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '上次更新',
         // // 导航栏仓库链接设置
-        // repo: 'https://gitee.com/dream-deeply-tyu/cmty256',
+        // repo: 'https://github.com/Cai2w',
         // // 自定义导航栏仓库链接名称
-        // repoLabel: "Gitee",
+        // repoLabel: "Github",
         nav: navConf,
         sidebar: {
             mode: 'structuring',
@@ -109,7 +109,10 @@ module.exports = {
         footer: {
             createYear: 2024, // 博客创建年份
             copyrightInfo:
-                '<a href="https://cai2.wang" target="_blank">王菜菜</a> | <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021022101号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+                '<a href="https://cai2.wang" target="_blank">王菜菜</a>'
+                // +
+                // ' | <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021022101号</a>'
+            , // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
