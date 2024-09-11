@@ -1,0 +1,109 @@
+// 顶部进度条插件
+$readingBgColor = transparent
+$readingZIndex = 1000
+$readingSize = 3px
+$readingProgressColor = #b160ea
+$readingProgressImage = none
+
+
+//***vdoing主题-变量***//
+
+// 颜色
+$bannerTextColor = #fff // 首页 banner 区(博客标题)文本颜色
+$accentColor = #304ffe
+$activeColor = #ff5722
+$arrowBgColor = #ccc
+$badgeTipColor = #42b983
+$badgeWarningColor = darken(#ffe564, 35%)
+$badgeErrorColor = #DA5961
+
+// 布局
+$navbarHeight = 3.6rem
+$sidebarWidth = 18rem
+$contentWidth = 860px
+$homePageWidth = 1100px
+$rightMenuWidth = 230px // 右侧菜单
+
+// 代码块
+$lineNumbersWrapperWidth = 2.5rem
+
+// 代码块的行数字颜色
+div[class*="language-"]
+  &.line-numbers-mode
+    .line-numbers-wrapper
+      color #9e9e9e
+
+// 加粗字体颜色
+strong
+  //color #0a85d9
+  color #304ffe
+
+em
+  color #c849ff
+
+.suggestions
+  max-height 800 px
+  overflow-y scroll
+.suggestions .highlight
+  color #64acff
+  font-weight bold
+
+.footer {
+  color: #fff;
+}
+
+.theme-mode-light
+  --bodyBg: #f4f4f4
+  --mainBg: rgba(255,255,255,1)
+  --sidebarBg: rgba(255,255,255,.8)
+  --blurBg: rgba(255,255,255,.9)
+  --customBlockBg: #fff
+  --textColor: #00323c
+  --textLightenColor: #d63200     // `` 高亮，原来是 #0085AD
+  --borderColor: rgba(0,0,0,.15)
+
+  // 代码块深色主题
+  --codeBg: #282C34
+  --codeColor: #D4D4D4
+  codeThemeDark()
+  // 行高亮颜色，和代码块深色主题一起使用，一起注释
+  div[class*="language-"]
+    .highlight-lines
+      .highlighted
+        background-color rgba(0,0,0,.66)
+    &.line-numbers-mode
+      .highlight-lines .highlighted
+        &:before
+          background-color rgba(0,0,0,.66)
+  div[class*="language-"].line-numbers-mode::after  // 代码块的行数和内容分割线颜色
+    border-right 1px solid rgba(0, 0, 0, 0.66)
+  // 下面代码块深色和浅色通用
+  // `` 包裹的背景色
+  .theme-vdoing-content
+    code
+      background-color #fff5f5
+  //background-color transparent
+  // 引用的颜色
+  blockquote
+    background-color #fdefee
+    border-left .25rem solid #e95f59
+    padding 10px 16px
+    opacity .9
+  // 选中代码块的颜色
+  pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+  code[class*="language-"]::selection, code[class*="language-"] ::selection {
+    text-shadow none
+    background-color #0A62C9
+  }
+  // mark 标签配置
+  mark
+    color #d63200
+    border .1em solid #d63200
+    background-color transparent
+    padding .1rem .5rem
+    border-radius 2rem
+    margin 0 .2rem
+    font-size .95rem
+  // ::: details 的边框
+  .custom-block.details
+    border solid 1px #ddd
