@@ -32,7 +32,12 @@ function readFileList(excludeFiles = [''], dir = docsRoot, filesList = []) {
                     } else if (fileNameArr.length === 3) { // 有序号的文件
                         name = fileNameArr[1]
                         type = fileNameArr[2]
-                    } else { // 超过两个‘.’的
+                    } else if (fileNameArr.length > 3){// 超过两个‘.’的
+                        // 至少有一个文件名和一个扩展名
+                        // 文件名的部分是从第一个点后到最后一个点前的部分
+                        name = fileNameArr.slice(1, -1).join('.');
+                        type = fileNameArr[fileNameArr.length - 1];
+                    } else {
                         log(chalk.yellow(`warning: 该文件 "${filePath}" 没有按照约定命名，将忽略生成相应数据。`))
                         return
                     }
