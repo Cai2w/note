@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /img/2.png
-heroText: 沉梦听雨的编程指南
+heroImage: /img/1.gif
+heroText: 王菜菜的编程指南
 tagline: 时间是最好的浸渍剂，而沉淀是最好的提纯器🚀
 bannerBg: none
 actionText: 开始阅读 →
