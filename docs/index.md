@@ -46,9 +46,11 @@ hideRightBar: true
 :::
 
 
-<ClientOnly>
-  <WebInfo></WebInfo>
-</ClientOnly>
+[comment]: <> (<ClientOnly>)
+
+[comment]: <> (  <WebInfo></WebInfo>)
+
+[comment]: <> (</ClientOnly>)
 
 
 
