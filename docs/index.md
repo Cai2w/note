@@ -20,8 +20,13 @@ postList: none
 hideRightBar: true
 ---
 # 🎖学习向导
-::: cardList 3
+::: cardList 4
 ```yaml
+- name: Java全栈知识体系
+  desc: 全栈开发，DevOps
+  link: https://pdai.tech/
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
 - name: JavaGuide
   desc: 面试指南
   link: https://javaguide.cn/home.html
@@ -38,6 +43,8 @@ hideRightBar: true
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
 ```
+:::
+
 
 <ClientOnly>
   <WebInfo></WebInfo>
