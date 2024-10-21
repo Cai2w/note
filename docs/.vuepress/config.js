@@ -23,7 +23,7 @@ module.exports = {
     },
     base: '/',
     head: [
-        ['link', { rel: 'icon', href: 'https://cdn.jsdmirror.com/gh/Cai2w/cdn/img/logo.png' }], // 网页选项卡的logo
+        ['link', { rel: 'icon', href: 'https://img.cai2.wang/logo.png' }], // 网页选项卡的logo
         [
             'meta',
             {
@@ -59,7 +59,7 @@ module.exports = {
     ],
     themeConfig: {
         updateBar:{showToArticle: false},
-        logo: 'https://cdn.jsdmirror.com/gh/Cai2w/cdn/img/logo.png',
+        logo: 'https://img.cai2.wang/logo.png',
         // sidebar: 'structuring',
         sidebarDepth: 2,
         lastUpdated: '上次更新',
