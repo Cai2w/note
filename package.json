@@ -31,6 +31,7 @@
     "add": "^2.0.6",
     "caniuse-lite": "^1.0.30001566",
     "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-mermaidjs": "^1.9.1",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sitemap": "^2.3.1"
   }

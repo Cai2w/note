@@ -142,6 +142,8 @@ module.exports = {
         // titleBadgeIcons: ['/img/2.png',],
     },
     plugins: [
+        // mermaid 图插件
+        'vuepress-plugin-mermaidjs',
         [
             'one-click-copy',  // 一键复制插件
             {
