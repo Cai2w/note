@@ -34,6 +34,7 @@ module.exports = [
       { text: "SpringBoot", link: "/pages/72bcc7/" },
       { text: "Mybatis", link: "/pages/93b888/" },
       { text: "Shiro", link: "/pages/a54fbc/" },
+      { text: "Netty", link: "/pages/c22ac9/" },
     ]
   },
   {
