@@ -153,7 +153,7 @@ module.exports = {
             duration: 1000, // prompt message display time
             }
         ],
-        ["cursor-effects"], // 星星点击特效
+        // ["cursor-effects"], // 星星点击特效
         [
             'dynamic-title', // 文章标题动态效果
             {
