@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/1.gif
-heroText: 王菜菜的编程指南
-tagline: 时间是最好的浸渍剂，而沉淀是最好的提纯器🚀
+heroText: Kiroの编程指南
+tagline: 种一棵树最好的时间是十年前，其次是现在🚀
 bannerBg: none
 actionText: 开始阅读 →
 actionLink: /pages/11aacc/

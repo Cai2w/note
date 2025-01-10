@@ -2,12 +2,12 @@ const navConf = require('./config/nav')
 const { readFileList, readTotalFileWords, readEachFileWords } = require('./webSiteInfo/readFile');
 
 // 定义常量
-const author = "程序员王菜菜";
+const author = "Kiro";
 const domain = "https://note.cai2.wang/";
 const tags = ["程序员", "编程", "计算机"];
 
 module.exports = {
-    title: '王菜菜的编程指南',
+    title: 'Kiroの编程指南',
     // base: '/',
     description: '满招损，谦受益',
     locales: {
@@ -28,13 +28,13 @@ module.exports = {
             'meta',
             {
               name: 'keywords',
-              content: "编程分享, 开发, 程序员, Java, 计算机, IT, 八股"
+              content: "编程分享, 开发, 程序员, Java, 计算机, IT, 八股, 笔记"
             }
        ],[
             'meta',
             {
               name: 'description',
-              content: '王菜菜的编程指南'
+              content: 'Kiro的编程指南'
             }
        ],
         // 解决 Chrome 网站统计不准确问题
@@ -79,7 +79,7 @@ module.exports = {
 
         // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
-          name: '王菜菜', // 必需
+          name: 'Kiro', // 必需
           link: 'https://ca2.wang', // 可选的
         },
 
@@ -107,9 +107,9 @@ module.exports = {
 
         // 页脚信息
         footer: {
-            createYear: 2024, // 博客创建年份
+            createYear: 2022, // 博客创建年份
             copyrightInfo:
-                '<a href="https://cai2.wang" target="_blank">王菜菜</a>'
+                '<a href="https://cai2.wang" target="_blank">Kiro</a>'
                 // +
                 // ' | <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021022101号</a>'
             , // 博客版权信息、备案信息等，支持a标签或换行标签</br>
@@ -118,14 +118,14 @@ module.exports = {
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
         extendFrontmatter: {
             author: {
-                name: '王菜菜',
+                name: 'Kiro',
                 link: 'https://ca2.wang'
             }
         },
 
         // 站点配置（首页 & 文章页）
         blogInfo: {
-            blogCreate: '2024-9-12', // 博客创建时间
+            blogCreate: '2022-9-12', // 博客创建时间
             indexView: false,  // 开启首页的访问量和排名统计，默认 true（开启）
             pageView: false,  // 开启文章页的浏览量统计，默认 true（开启）
             readingTime: true,  // 开启文章页的预计阅读时间，条件：开启 eachFileWords，默认 true（开启）。可在 eachFileWords 的 readEachFileWords 的第二个和第三个参数自定义，默认 1 分钟 300 中文、160 英文
