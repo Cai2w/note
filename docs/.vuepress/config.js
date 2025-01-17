@@ -110,8 +110,8 @@ module.exports = {
             createYear: 2022, // 博客创建年份
             copyrightInfo:
                 '<a href="https://cai2.wang" target="_blank">Kiro</a>'
-                // +
-                // ' | <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021022101号</a>'
+                +
+                ' | <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021022101号</a>'
             , // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 

@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
-    "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs",
     "deploy": "bash deploy.sh"
   },
   "author": "作者名称",
