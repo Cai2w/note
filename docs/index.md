@@ -19,7 +19,7 @@ postList: none
 # 是否隐藏右侧边栏
 hideRightBar: true
 ---
-# 🎖学习向导
+# 🏆 学习向导
 ::: cardList 4
 ```yaml
 - name: Java全栈知识体系
@@ -40,6 +40,36 @@ hideRightBar: true
 - name: 帅地
   desc: 优质博客
   link: https://blog.csdn.net/m0_37907797/article/details/104029002
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+```
+:::
+
+<br/>
+<br/>
+
+
+# 🔗 Kiroの站点
+::: cardList 4
+```yaml
+- name: 主页
+  desc: Kiro | Home Page
+  link: https://cai2.wang
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: 标签
+  desc: Kiro | Nav Page
+  link: https://nav.cai2.wang
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: 博客
+  desc: Kiro | Blog
+  link: https://blog.cai2.wang
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: 监测
+  desc: Kiro | Status Page
+  link: https://status.cai2.wang
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
 ```
