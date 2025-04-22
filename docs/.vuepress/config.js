@@ -23,7 +23,7 @@ module.exports = {
     },
     base: '/',
     head: [
-        ['link', { rel: 'icon', href: 'https://cdn.jsdmirror.cn/gh/Cai2w/cdn/img/logo.png' }], // 网页选项卡的logo
+        ['link', { rel: 'icon', href: '/img/logo.png' }], // 网页选项卡的logo
         [
             'meta',
             {
@@ -59,7 +59,7 @@ module.exports = {
     ],
     themeConfig: {
         updateBar:{showToArticle: false},
-        logo: 'https://cdn.jsdmirror.cn/gh/Cai2w/cdn/img/logo.png',
+        logo: '/img/logo.png',
         // sidebar: 'structuring',
         sidebarDepth: 2,
         lastUpdated: '上次更新',
@@ -154,16 +154,16 @@ module.exports = {
             }
         ],
         // ["cursor-effects"], // 星星点击特效
-        [
-            'dynamic-title', // 文章标题动态效果
-            {
-            // showIcon: 'https://www.typescriptlang.org/favicon-32x32.png?v=8944a05a8b601855de116c8a56d3b3ae',
-            // showText: '客官欢迎回来~',
-            // hideIcon: 'https://www.typescriptlang.org/favicon-32x32.png?v=8944a05a8b601855de116c8a56d3b3ae',
-            hideText: '客官不要走嘛~',
-            recoverTime: 2000,
-            }
-        ],
+        // [
+        //     'dynamic-title', // 文章标题动态效果
+        //     {
+        //     // showIcon: 'https://www.typescriptlang.org/favicon-32x32.png?v=8944a05a8b601855de116c8a56d3b3ae',
+        //     // showText: '客官欢迎回来~',
+        //     // hideIcon: 'https://www.typescriptlang.org/favicon-32x32.png?v=8944a05a8b601855de116c8a56d3b3ae',
+        //     hideText: '客官不要走嘛~',
+        //     recoverTime: 2000,
+        //     }
+        // ],
         [
             'vuepress-plugin-reading-time',
             {
