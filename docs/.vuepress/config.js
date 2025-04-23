@@ -80,7 +80,7 @@ module.exports = {
         // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
           name: 'Kiro', // 必需
-          link: 'https://ca2.wang', // 可选的
+          link: 'https://cai2.wang', // 可选的
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -119,7 +119,7 @@ module.exports = {
         extendFrontmatter: {
             author: {
                 name: 'Kiro',
-                link: 'https://ca2.wang'
+                link: 'https://cai2.wang'
             }
         },
 
